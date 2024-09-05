@@ -1,0 +1,9 @@
+QToolBar QToolButton:checked {
+    color: #9d7106;
+    background-color: #f8bf36;
+    border: 2px solid #f8bf36;
+    border-radius: 2px;
+}
+#actionbar_head{
+    font-weight: bold;
+}

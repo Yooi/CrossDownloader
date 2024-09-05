@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{66D73FD1-6655-4402-85F4-DBA268581997}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">10.0.17763.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="QtSettings">
+    <QtInstall>Qt5.15.7</QtInstall>
+    <QtModules>core;sql;network;gui;widgets;webchannel;websockets;concurrent;webengine;webenginewidgets</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile />
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>F:\Develop\Lib\zlib-1.2.3-lib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>
+      </LanguageStandard>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <DebugInformationFormat>None</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>F:\Develop\Lib\zlib-1.2.3-lib\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountManager.cpp" />
+    <ClCompile Include="ApiManager.cpp" />
+    <ClCompile Include="Dbmanager.cpp" />
+    <ClCompile Include="DownloadHandler.cpp" />
+    <ClCompile Include="DownloadManager.cpp" />
+    <ClCompile Include="Overrides.cpp" />
+    <ClCompile Include="ResourceTableWidget.cpp" />
+    <ClCompile Include="Setting.cpp" />
+    <ClCompile Include="SiteManager.cpp" />
+    <ClCompile Include="sql.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="cookiejar.cpp" />
+    <ClCompile Include="networkaccessmanager.cpp" />
+    <ClCompile Include="requestinterceptor.cpp" />
+    <ClCompile Include="TabWidget.cpp" />
+    <ClCompile Include="UpdateManager.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="ViewManager.cpp" />
+    <ClCompile Include="WebObject.cpp" />
+    <ClCompile Include="WebSocketServer.cpp" />
+    <ClCompile Include="WebView.cpp" />
+    <ClCompile Include="WebWidget.cpp" />
+    <QtRcc Include="crossdownloader.qrc" />
+    <QtUic Include="commentWidget.ui" />
+    <QtUic Include="crossdownloader.ui" />
+    <QtMoc Include="crossdownloader.h" />
+    <ClCompile Include="CApplication.cpp" />
+    <ClCompile Include="crossdownloader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <QtUic Include="downloader.ui" />
+    <QtUic Include="inputDialog.ui" />
+    <QtUic Include="resourceDialog.ui" />
+    <QtUic Include="setting.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="WebWidget.h" />
+    <QtMoc Include="WebSocketServer.h" />
+    <QtMoc Include="WebObject.h" />
+    <QtMoc Include="requestinterceptor.h" />
+    <QtMoc Include="networkaccessmanager.h" />
+    <QtMoc Include="cookiejar.h" />
+    <QtMoc Include="DownloadManager.h" />
+    <QtMoc Include="Dbmanager.h" />
+    <QtMoc Include="ApiManager.h" />
+    <QtMoc Include="AccountManager.h" />
+    <QtMoc Include="ResourceTableWidget.h" />
+    <QtMoc Include="DownloadHandler.h" />
+    <QtMoc Include="Overrides.h" />
+    <ClInclude Include="resource.h" />
+    <QtMoc Include="Setting.h" />
+    <QtMoc Include="SiteManager.h" />
+    <ClInclude Include="sql.h" />
+    <QtMoc Include="UpdateManager.h" />
+    <QtMoc Include="TabWidget.h" />
+    <ClInclude Include="type.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="ViewManager.h" />
+    <QtMoc Include="WebView.h" />
+    <QtMoc Include="CApplication.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CrossDownloader.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

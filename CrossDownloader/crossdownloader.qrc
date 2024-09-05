@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/CrossDownloader">
+        <file>Resources/site.png</file>
+        <file>Resources/xhs.png</file>
+        <file>Resources/liveDashboard.html</file>
+        <file>Resources/live.png</file>
+        <file>Resources/addAction.png</file>
+        <file>Resources/comment.png</file>
+        <file>Resources/clean.png</file>
+        <file>Resources/info.png</file>
+        <file>Resources/link.png</file>
+        <file>Resources/TikTok_logo.svg</file>
+        <file>Resources/logo.ico</file>
+        <file>Resources/downloading.png</file>
+        <file>Resources/chrome.png</file>
+        <file>Resources/delete.png</file>
+        <file>Resources/search.png</file>
+        <file>Resources/main.css</file>
+        <file>Resources/stop.png</file>
+        <file>Resources/video.png</file>
+        <file>Resources/fail.png</file>
+        <file>Resources/wait.png</file>
+        <file>Resources/download.png</file>
+        <file>Resources/douyin.png</file>
+        <file>Resources/close.png</file>
+        <file>Resources/scripts/douyin.js</file>
+        <file>Resources/folder-open.png</file>
+        <file>Resources/ajaxhook.js</file>
+        <file>Resources/empty.html</file>
+        <file>Resources/fingerprint.js</file>
+        <file>Resources/setting.png</file>
+        <file>Resources/add.png</file>
+        <file>Resources/scripts/xiaohongshu.js</file>
+        <file>Resources/note.png</file>
+        <file>Resources/workershow.png</file>
+    </qresource>
+</RCC>
