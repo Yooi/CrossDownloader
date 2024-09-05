@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/install/CrossDownloader_setup_0.4.0.zip
+/install/CrossDownloader_setup_0.4.1.zip
+/install/CrossDownloader_setup_0.4.6.zip
+/install/CrossDownloader_setup.exe
