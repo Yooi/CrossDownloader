@@ -365,3 +365,5 @@ FodyWeavers.xsd
 /install/CrossDownloader_setup_0.4.1.zip
 /install/CrossDownloader_setup_0.4.6.zip
 /install/CrossDownloader_setup.exe
+/CrossDownloader/CrossDownloader.vcxproj
+/CrossDownloader/CrossDownloader.vcxproj.filters
