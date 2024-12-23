@@ -23,8 +23,6 @@
 #define PAGE_SIZE 100
 
 #define COOKIE_SEPAROR "^|$"
-#define APP_KEY "8926682380346315"
-#define APP_SECRET "kCGAOwHmv95SnFI0f7bT8NZo"
 
 #define CLIENTCLS L"Qt5QWindowIcon"
 
