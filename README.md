@@ -1,9 +1,10 @@
 <h1 align="center">
   <br>
-  <a href="https://cdr.lnk5.com/?ref=git"><img src="https://github.com/user-attachments/assets/ef6ba8ad-34d1-477f-b147-51338af586f9" alt="CrossDownloader" width="200"></a>
+  <a href="https://cdr.lnk5.com/?ref=git"><img src="https://github.com/user-attachments/assets/1e638866-ead9-409d-9ecf-f77b5f8da0b2" alt="CrossDownloader" width="200"></a>
   <br>
   CrossDownloader
   <br>
+
 </h1>
 
 
