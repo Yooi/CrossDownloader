@@ -9,8 +9,9 @@
 
 #define VERSION "0.4.6"
 
-#define AGENT "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+#define AGENT "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"
 
+#define PROJECT_ROOT "F:/Develop/Projects/QTProject/CrossDownloader"
 #define CHECKUPDATE_URL "http://appstatic.lnk5.com/cdr/update.json"
 
 #define PROTAL "https://cdr.lnk5.com/?ref=app"

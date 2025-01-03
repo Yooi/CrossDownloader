@@ -358,7 +358,7 @@ QString CrossDownloader::prepareTemplate(QString viewtype)
 	if (tpl.isEmpty() || CD_DEBUG) {
 		QString path = QString(":/CrossDownloader/Resources/%1.html").arg(viewtype);
 		if (CD_DEBUG) {
-			path = QString("F:/Develop/Projects/QTProject/CrossDownloader/CrossDownloader/Resources/%1.html").arg(viewtype);
+			path = PROJECT_ROOT + QString("/CrossDownloader/Resources/%1.html").arg(viewtype);
 		}
 
 		QFile file(path);
