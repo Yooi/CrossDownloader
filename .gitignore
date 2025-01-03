@@ -364,6 +364,7 @@ FodyWeavers.xsd
 install/
 Release/
 CrossDownloader-Extension/
+
 /CrossDownloader/CrossDownloader.vcxproj
 /CrossDownloader/CrossDownloader.vcxproj.filters
 
