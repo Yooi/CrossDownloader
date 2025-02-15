@@ -11,15 +11,11 @@
 <h4 align="center">A versatile and high speed downloader.</h4>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
-  </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+  <a href="https://gitter.im/"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
+  <a href="https://saythanks.io/to/">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
-  <a href="https://www.paypal.me/AmitMerchant">
+  <a href="https://www.paypal.me/">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
@@ -34,7 +30,8 @@
 
 https://github.com/user-attachments/assets/aed1f583-c149-41ec-aa6c-9bdb572a50e2
 
-https://github.com/user-attachments/assets/cb40ee0c-65c4-49b3-b529-9c936506aa10
+<img height="20" src="https://github.com/user-attachments/assets/cb40ee0c-65c4-49b3-b529-9c936506aa10">
+
 
 ## Key Features
 
