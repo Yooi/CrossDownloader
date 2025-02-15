@@ -30,7 +30,7 @@
 
 https://github.com/user-attachments/assets/aed1f583-c149-41ec-aa6c-9bdb572a50e2
 
-<img height="20" src="https://github.com/user-attachments/assets/cb40ee0c-65c4-49b3-b529-9c936506aa10">
+<img height="auto" src="https://github.com/user-attachments/assets/cb40ee0c-65c4-49b3-b529-9c936506aa10">
 
 
 ## Key Features
