@@ -795,7 +795,7 @@ bool InputDialog::validator(const QString& url, APIType type)
 	case APIType::COMMENT:
 		break;
 	case APIType::LIVE:
-		if (url.indexOf("live.douyin.com") == -1 || url.indexOf("douyin.com/root/live") == -1) {
+		if (url.indexOf("live.douyin.com") == -1 || url.indexOf("douyin.com/root/live") == -1 || url.indexOf("www.douyin.com/follow/live") == -1) {
 			status = false;
 		}
 		break;
