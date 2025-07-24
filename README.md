@@ -59,16 +59,8 @@ CrossDownloader leverages modern technologies to deliver superior performance an
 - **Cross-platform UI** - Native look and feel on Windows, macOS, and Linux
 - **System Integration** - Deep OS integration for context menus and file associations
 
-### 🌐 Web Technologies
-- **Electron.js** - Alternative web-based desktop application
-- **React + TypeScript** - Modern, type-safe frontend development
-- **Tauri** - Lightweight Rust-based desktop app framework (experimental)
-- **Material-UI** - Consistent and accessible user interface components
-
 ### 🔧 Backend & Core Engine
-- **Node.js** - JavaScript runtime for extensible plugin system
 - **C++** - High-performance download engine and system operations
-- **Rust** - Memory-safe components for critical performance paths
 - **SQLite** - Local database for download history and settings
 
 ### 📱 Browser Extension
@@ -79,13 +71,11 @@ CrossDownloader leverages modern technologies to deliver superior performance an
 
 ### 🎥 Media Processing
 - **FFmpeg** - Video/audio processing and format conversion
-- **youtube-dl/yt-dlp** - Advanced media extraction from popular platforms
 - **aria2** - Multi-protocol download acceleration
 - **Custom Parsers** - Specialized extractors for social media platforms
 
 ### 🔗 Network & Protocols
 - **HTTP/HTTPS** - Standard web protocols with connection pooling
-- **FTP/SFTP** - File transfer protocol support
 - **BitTorrent** - P2P protocol integration
 - **WebSocket** - Real-time communication between extension and app
 
